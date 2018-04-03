@@ -51,7 +51,7 @@
     <property name="geometry">
      <rect>
       <x>27</x>
-      <y>70</y>
+      <y>110</y>
       <width>751</width>
       <height>20</height>
      </rect>
@@ -64,7 +64,7 @@
     <property name="geometry">
      <rect>
       <x>400</x>
-      <y>20</y>
+      <y>80</y>
       <width>381</width>
       <height>31</height>
      </rect>
@@ -104,7 +104,7 @@
     <property name="geometry">
      <rect>
       <x>70</x>
-      <y>120</y>
+      <y>160</y>
       <width>161</width>
       <height>231</height>
      </rect>
@@ -158,9 +158,9 @@
     <property name="geometry">
      <rect>
       <x>280</x>
-      <y>100</y>
+      <y>140</y>
       <width>491</width>
-      <height>331</height>
+      <height>281</height>
      </rect>
     </property>
     <property name="font">
@@ -170,7 +170,7 @@
      </font>
     </property>
     <property name="title">
-     <string>PROGRAMMER TOOLS</string>
+     <string>PROGRAMMER TOOLS (OUT OF ORDER FOR NOW)</string>
     </property>
     <widget class="QWidget" name="gridLayoutWidget">
      <property name="geometry">
@@ -212,6 +212,32 @@
       </item>
      </layout>
     </widget>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>80</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayoutUserName">
+     <item>
+      <widget class="QLabel" name="labelWelcome">
+       <property name="text">
+        <string>Welcome, </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="labeluserName">
+       <property name="text">
+        <string>&lt;userName&gt;</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
